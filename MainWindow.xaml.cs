@@ -33,7 +33,7 @@ namespace _319481CheckBoard
                     r.Width = 15;
                   
                     ;
-                    if (i % 2 == 0 && j % 2 == 0 || i % 2 ==1 && j % 2 == 1)
+                    if ((i + j) % 2 == 0)
                     {
                         r.Fill = Brushes.Coral;
                     }
